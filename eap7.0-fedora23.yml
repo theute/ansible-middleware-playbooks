@@ -1,0 +1,9 @@
+- hosts: jboss_eap_fedora_hosts
+  remote_user: "{{ ansible_fedora_user }}"
+  become: true
+  become_user: root
+  gather_facts: true
+
+  roles:
+  - jboss_common
+  - jboss_eap

@@ -4,5 +4,8 @@ localhost1 ansible_ssh_host=localhost  ansible_ssh_port=2200 ansible_centos_user
 [jboss_eap_rhel_hosts]
 10.3.8.173
 
+[jboss_eap_fedora_hosts]
+127.0.0.1
+
 [jboss_bxms_eap_centos_hosts]
 localhost2 ansible_ssh_host=localhost ansible_ssh_port=2202 ansible_centos_user=vagrant
