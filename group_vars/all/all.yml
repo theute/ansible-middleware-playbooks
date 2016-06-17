@@ -15,7 +15,7 @@ transfer_method: copy-from-controller  #csp-to-host | copy-from-controller | fil
 
 jboss_eap_artifact_name: jboss-eap-7.0.0.zip
 jboss_eap_bind_web_interface: true
-jboss_eap_bind_management_interface: false
+jboss_eap_bind_management_interface: true
 jboss_eap_apply_patch: false
 
 jboss_eap_user: jboss-as
