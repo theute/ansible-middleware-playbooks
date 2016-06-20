@@ -7,7 +7,8 @@
   pre_tasks:
   - name: Install dnf-python
     raw: dnf install python-dnf -y 
- 
+  - name: Install libselinux-python
+    raw: dnf install python-dnf -y 
 
   roles:
   - jboss_common
