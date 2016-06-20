@@ -8,7 +8,7 @@
   - name: Install dnf-python
     raw: dnf install python-dnf -y 
   - name: Install libselinux-python
-    raw: dnf install python-dnf -y 
+    raw: dnf install libselinux-python -y 
 
   roles:
   - jboss_common
