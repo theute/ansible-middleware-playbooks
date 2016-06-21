@@ -4,11 +4,11 @@
   become_user: root
   gather_facts: true
 
-  pre_tasks:
-  - name: Install dnf-python
-    raw: dnf install python-dnf -y 
-  - name: Install libselinux-python
-    raw: dnf install libselinux-python -y 
+#  pre_tasks:
+#  - name: Install dnf-python
+#    raw: dnf install python-dnf -y 
+#  - name: Install libselinux-python
+#    raw: dnf install libselinux-python -y 
 
   roles:
   - jboss_common
